@@ -2,26 +2,26 @@
 		var jsonViewer = new JSONViewer();
 		document.querySelector("#json").appendChild(jsonViewer.getContainer());
 
-		var textarea = document.querySelector("textarea");
-		textarea.value = JSON.stringify({
-"name":"Bill Gates",
-"street":"Fifth Avenue New York 666",
-"age":56,
-"phone":"555 1234567"});
+// 		var textarea = document.querySelector("textarea");
+// 		textarea.value = JSON.stringify({
+// "name":"Bill Gates",
+// "street":"Fifth Avenue New York 666",
+// "age":56,
+// "phone":"555 1234567"});
 
-		// textarea value to JSON object
-		var setJSON = function () {
-			try {
-				var value = textarea.value;
-				jsonObj = JSON.parse(value);
-			}
-			catch (err) {
-				alert(err);
-			}
-		};
+// 		// textarea value to JSON object
+// 		var setJSON = function () {
+// 			try {
+// 				var value = textarea.value;
+// 				jsonObj = JSON.parse(value);
+// 			}
+// 			catch (err) {
+// 				alert(err);
+// 			}
+// 		};
 
-		// load default value
-		setJSON();
+// 		// load default value
+// 		setJSON();
 
 		var loadJsonBtn = document.querySelector("button.load-json");
 		var collapseBtn = document.querySelector("button.collapse");
