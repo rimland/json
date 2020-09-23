@@ -1,6 +1,7 @@
 *.html
 *.js
 *.css
+*.log
 
 !min.html
 !min.js
