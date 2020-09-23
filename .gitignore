@@ -1,0 +1,7 @@
+*.html
+*.js
+*.css
+
+!*.min.html
+!*.min.js
+!*.min.css
