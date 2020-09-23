@@ -2,6 +2,7 @@
 *.js
 *.css
 
-!*.min.html
-!*.min.js
-!*.min.css
+!min.html
+!min.js
+!min.css
+!index.html
